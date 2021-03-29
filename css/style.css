@@ -170,7 +170,6 @@ body {
 
 .card{
     max-width: 200px;
-    height: 332px;
     margin: 10px;
 }
 
@@ -246,7 +245,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 300px;
     margin: 5px;
 }
 
@@ -292,10 +290,12 @@ body {
     width: 7px;
     height: 25px;
     background: #E0BF48;
+    margin: 0 10px;
 }
 
 .reliquias p{
     color:#fdf9e9;
+    margin: 0 10px;
 }
 
 
@@ -323,7 +323,7 @@ body {
 @media (max-width:820px){
     .banner{
         text-align: center;
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
 
     .about-img{
@@ -333,9 +333,30 @@ body {
     .about-info p{
         padding-bottom: 20px;
     }
+
+    .card{
+        max-width: 120px;
+    }
+
+    .gods{
+        justify-content: center;
+    }
+
+    .exodia h1{
+        font-size: 2.5em;
+    }
+
+    .exodia h2{
+        font-size: 1.5em;
+    }
     
     .reliquias{
         justify-content: center;
+    }
+
+    .reliq img{
+        max-width: 250px;
+        margin: 0 auto;
     }
 
 }
